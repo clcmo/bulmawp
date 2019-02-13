@@ -9,4 +9,5 @@
 	<aside class="menu">
 		<?php if( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'sidebar' ) ) : endif; ?>
 	</aside>
+	<span class="target"></span>
 </div>

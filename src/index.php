@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-  <div class="column">
+  <div class="column is-9">
     <?php bulmawp_breadcrumbs(); ?>
     <div class="content">
       <?php

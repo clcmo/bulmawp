@@ -13,7 +13,7 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <nav class="navbar">
+    <nav class="navbar is-black">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="<?php echo site_url(); ?>">
