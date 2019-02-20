@@ -7,6 +7,7 @@
 
 get_header();
 ?>
+<?php get_sidebar(); ?>
   <div class="column is-9">
     <?php bulmawp_breadcrumbs(); ?>
     <div class="content">
@@ -18,5 +19,5 @@ get_header();
     </div>
     <?php bulmawp_pagination(); ?>
   </div>
-  <?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

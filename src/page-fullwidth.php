@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-  <div class="column">
+  <section class="section">
     <?php
     bulmawp_breadcrumbs();
     if( have_posts() ) : while( have_posts() ) : the_post();
@@ -20,5 +20,5 @@ get_header();
       comments_template();
     endwhile; endif;
     ?>
-  </div>
+  </section>
 <?php get_footer(); ?>

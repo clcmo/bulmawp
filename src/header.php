@@ -105,6 +105,8 @@
         </div>
       </div>
     </nav>
-    <section class="section">
+    <div class="columns">
+
+    <!--<section class="section">
       <div class="container">
-        <div class="columns">
+        <div class="columns">-->

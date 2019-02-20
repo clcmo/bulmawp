@@ -7,7 +7,8 @@
 
 get_header();
 ?>
-  <div class="column">
+  <?php get_sidebar(); ?>  
+  <div class="column is-9">
     <?php
     bulmawp_breadcrumbs();
     if( have_posts() ) : while( have_posts() ) : the_post();
@@ -21,5 +22,5 @@ get_header();
     endwhile; endif;
     ?>
   </div>
-  <?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

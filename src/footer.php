@@ -5,9 +5,10 @@
  * @version 0.3
  */
 ?>
-        </div>
+        <!--</div>
       </div>
-    </section>
+    </section>-->
+  </div>
     <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
